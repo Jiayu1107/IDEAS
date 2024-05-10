@@ -201,7 +201,7 @@ def get_user_query(trainer, tokenizer, reward_tokenizer, selected_skill_list, sk
     
     if '【question】' in output_text:
         try:
-            selected_skill, output_text = output_text.split('【questioning skill】')[1].split('【question】')
+            selected_skill, output_text = output_text.split('【instructional strategy】')[1].split('【instruction】')
         except:
             selected_skill = ""
             output_text = ""
