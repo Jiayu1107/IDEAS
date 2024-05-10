@@ -1,6 +1,6 @@
 # Inductive-Deductive Strategy Reuse for Multi-Turn Instructional Dialogues
 
-This project includes the data, model and code for paper[📄Inductive-Deductive Strategy Reuse for Multi-Turn Instructional Dialogues](https://arxiv.org/pdf/2404.11095.pdf)
+This project includes the data and code for paper[📄Inductive-Deductive Strategy Reuse for Multi-Turn Instructional Dialogues](https://arxiv.org/pdf/2404.11095.pdf)
 
 ----------
 
@@ -13,7 +13,7 @@ Specifically, we first induce high-level strategies from various real instructio
 These strategies are applied to new dialogue scenarios deductively, where the instructional strategies facilitate high-quality instructions.
 Experimental results show that our method can generate diverse, in-depth, and insightful instructions for a given dialogue history. The constructed multi-turn instructional dialogues can outperform competitive baselines on the downstream chat model.
 
-## Arcitacture
+## Architecture
 ![alt Arcitacture](./images/architecture.png)
 
 ## Getting Started
