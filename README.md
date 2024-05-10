@@ -42,7 +42,7 @@ python strategy_abstraction.py --data_path [data_path] --save_path [save_path] -
 #### User Simulator Training
 We provide training code to fine-tune LLaMa-2. You need to prepare the base model (LLaMa-2 or other models you like) and run the following training script. It should take 5-6 hours to train on 64 A100 GPUs. 
 ```
-### to fine-tune a user simulator
+# to fine-tune a user simulator
 cd induction/
 bash run_user_simulator.sh
 
@@ -55,11 +55,10 @@ bash run_user_simulator.sh
 cd deduction/
 CUDA_VISIBLE_DEVICES=0 python infer.py "model_name_or_path" "tokenizer_path" 4096 "./data/infer_p_chat_sharegpt_10k.json"  "category_path" "./data/output/infer_gpt4_reward_model_10k
 ```
-#### Chat Model Training
-```
+#### Chat Model Trainin
 We provide training code to fine-tune LLaMa-2. You need to prepare the base model (LLaMa-2 or other models you like) and run the following training script. It should take 2.5 hours to train on 1 A100 GPUs. 
 ```
-#### to fine-tune a chat model
+# to fine-tune a chat model
 cd deduction/
 bash run_chat_model.sh
 
