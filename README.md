@@ -31,7 +31,6 @@ To cluster similar strategies:
 ```
 cd induction
 python sbert_for_similarity.py --model_path [model_path] --data_path [data_path]
-
 ```
 To abstract the strategies within each cluster 
 ```
@@ -45,7 +44,6 @@ We provide training code to fine-tune LLaMa-2. You need to prepare the base mode
 # to fine-tune a user simulator
 cd induction/
 bash run_user_simulator.sh
-
 ```
 
 ### Deduction
@@ -61,7 +59,6 @@ We provide training code to fine-tune LLaMa-2. You need to prepare the base mode
 # to fine-tune a chat model
 cd deduction/
 bash run_chat_model.sh
-
 ```
 ## Citation
 ```
