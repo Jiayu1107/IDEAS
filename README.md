@@ -14,7 +14,7 @@ These strategies are applied to new dialogue scenarios deductively, where the in
 Experimental results show that our method can generate diverse, in-depth, and insightful instructions for a given dialogue history. The constructed multi-turn instructional dialogues can outperform competitive baselines on the downstream chat model.
 
 ## Arcitacture
-![alt 本地图片](..\images\arcitacture.png)
+![alt Arcitacture](./images/architecture.png)
 
 ## Getting Started
 
