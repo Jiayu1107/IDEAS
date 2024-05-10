@@ -1,6 +1,6 @@
 # Inductive-Deductive Strategy Reuse for Multi-Turn Instructional Dialogues
 
-[📄Paper](https://arxiv.org/pdf/2404.11095.pdf)
+This project includes the data, model and code for paper[📄Inductive-Deductive Strategy Reuse for Multi-Turn Instructional Dialogues](https://arxiv.org/pdf/2404.11095.pdf)
 
 ----------
 
@@ -53,7 +53,7 @@ bash run_user_simulator.sh
 #### Inferencing
 ```
 cd deduction/
-CUDA_VISIBLE_DEVICES=0 python infer.py "model_name_or_path" "tokenizer_path" 4096 "./data/infer_p_chat_sharegpt_10k.json"  "category_path" "./data/output/infer_gpt4_reward_model_10k
+CUDA_VISIBLE_DEVICES=0 python infer.py "model_name_or_path" "tokenizer_path" 4096 "./data/infer_p_chat_sharegpt_10k.json"  "category_path" "./data/output/infer_gpt4_reward_model_10k"
 ```
 #### Chat Model Trainin
 We provide training code to fine-tune LLaMa-2. You need to prepare the base model (LLaMa-2 or other models you like) and run the following training script. It should take 2.5 hours to train on 1 A100 GPUs. 
