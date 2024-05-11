@@ -18,8 +18,7 @@ Experimental results show that our method can generate diverse, in-depth, and in
 
 ## Getting Started
 
-We place the data which used to train the user simulator and chat model in Hugging Face![image](https://github.com/Jiayu1107/IDEAS/assets/57472037/90811174-a1b3-4953-8017-97f9bcf3066e)
-https://huggingface.co/datasets/wujiayu/IDEAS
+We place the data which used to train the user simulator and chat model in Hugging Face：https://huggingface.co/datasets/wujiayu/IDEAS
 ### Induction
 
 #### Oringinal Instructional Strategies Extraction
