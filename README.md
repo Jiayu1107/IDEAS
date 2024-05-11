@@ -18,6 +18,8 @@ Experimental results show that our method can generate diverse, in-depth, and in
 
 ## Getting Started
 
+We place the data which used to train the user simulator and chat model in Hugging Face![image](https://github.com/Jiayu1107/IDEAS/assets/57472037/90811174-a1b3-4953-8017-97f9bcf3066e)
+https://huggingface.co/datasets/wujiayu/IDEAS
 ### Induction
 
 #### Oringinal Instructional Strategies Extraction
@@ -39,7 +41,7 @@ python strategy_abstraction.py --data_path [data_path] --save_path [save_path] -
 
 
 #### User Simulator Training
-We provide training code to fine-tune LLaMa-2. You need to prepare the base model (LLaMa-2 or other models you like) and run the following training script. It should take 5-6 hours to train on 64 A100 GPUs. 
+We provide training code to fine-tune LLaMa-2. You need to prepare the base model (LLaMa-2 or other models you like) and run the following training script. It should take 5-6 hours to train on 64 A100 GPUs.
 ```
 # to fine-tune a user simulator
 cd induction/
